@@ -23,3 +23,33 @@
     transform: scale(1.05);
     transition: 0.6s;
 }
+@media screen and (max-width: 1024px) {
+    .item {
+        width: 280px;
+    }
+
+    .item-prices-new,
+    .item-prices-old {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .item {
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .item-prices {
+        justify-content: center;
+    }
+
+    .item p {
+        text-align: center;
+    }
+
+    .item-prices-new,
+    .item-prices-old {
+        font-size: 15px;
+    }
+}

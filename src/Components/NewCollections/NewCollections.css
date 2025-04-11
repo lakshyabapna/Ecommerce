@@ -23,3 +23,31 @@
     margin-top: 50px;
     gap: 30px;
 }
+/* Tablet View */
+@media screen and (max-width: 1024px) {
+    .new-collections h1 {
+      font-size: 40px;
+    }
+  
+    .collections {
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .new-collections h1 {
+      font-size: 30px;
+      text-align: center;
+    }
+  
+    .collections {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 0 20px;
+    }
+  
+    .new-collections hr {
+      width: 120px;
+      height: 4px;
+    }
+  }

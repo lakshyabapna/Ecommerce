@@ -21,3 +21,35 @@
     display: flex;
     gap: 30px;
 }
+@media screen and (max-width: 1024px) {
+    .relatedproducts {
+      height: auto;
+      padding: 40px 20px;
+    }
+  
+    .relatedproducts h1 {
+      font-size: 40px;
+    }
+  
+    .relatedproducts-item {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .relatedproducts h1 {
+      font-size: 30px;
+      text-align: center;
+    }
+  
+    .relatedproducts hr {
+      width: 150px;
+      height: 4px;
+    }
+  
+    .relatedproducts-item {
+      gap: 20px;
+    }
+  }
+  

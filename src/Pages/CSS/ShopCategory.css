@@ -36,3 +36,19 @@
     font-size: 18px;
     font-weight: 500;
 }
+@media (max-width: 768px) {
+    .shopcategory-indexSort {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .shop-category-sort {
+        width: 100%;
+    }
+
+    .shopcategory-products {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        padding: 0 20px;
+    }
+}

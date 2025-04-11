@@ -58,3 +58,15 @@
     font-size: 18px;
     font-weight: 500;
 }
+@media (max-width: 600px) {
+    .loginsignup-container {
+        padding: 30px 20px;
+    }
+    .loginsignup-fields input {
+        height: 50px;
+    }
+    .loginsignup-container button {
+        height: 50px;
+        font-size: 18px;
+    }
+}
